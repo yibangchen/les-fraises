@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+
+  <div class="jumbo">
+    <h2>Autonotate</h2>
+    <h3>Extract definitions from legal documents for better reading experience<h3>
+
+    <div class="upload_div">
+    	<h2 class="upload_title">Upload your file here</h2>
+    	<form class="form-inline" action="" method=post enctype=multipart/form-data>
+        <div class="form-group">
+        	<input class="form-control" type=file name=file>
+          <input id="upload_button" class="form-control" type=submit value=Upload>
+        </div>
+      </form>
+    </div>
+  </div>
+{% endblock %}

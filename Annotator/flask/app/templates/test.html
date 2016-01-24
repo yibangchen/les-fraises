@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="jumbo">
+	  <h2 id="welcome message">PDF File Content</h2>
+  </div>
+
+  <div class="row">
+  	<div class="col-sm-8">
+	  	<p id="content">{{ original_text }}<p>
+	</div>
+	  
+	<div class="col-sm-4">
+	  	<p id="content">terms to text here</p>
+	  	<p id="content">{{ terms }}</p>
+	</div>
+  </div>	  
+
+{% endblock %}
